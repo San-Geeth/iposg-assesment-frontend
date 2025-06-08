@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="text-center">
+    <div class="mb-3">
+      <label for="formFile" class="form-label">Import CSV file for payments</label>
+      <input class="form-control" type="file" id="formFile" (change)="onFileSelected($event)">
+    </div>
+
+    <button class="btn btn-primary" (click)="upload()">Upload</button>
+  </div>
+</div>
