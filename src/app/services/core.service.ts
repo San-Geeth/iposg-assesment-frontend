@@ -24,4 +24,8 @@ export class CoreService {
       headers: headers
     });
   }
+
+  getPayments(page: number = 1) {
+    return this.http.get<any>(`${CORE_BASE_URL}/payments?page=${page}`);
+  }
 }
