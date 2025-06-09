@@ -7,13 +7,15 @@ import { PaymentsComponent } from './components/payments/payments.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { RecordsComponent } from './components/records/records.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PaymentsComponent,
-    NavbarComponent
+    NavbarComponent,
+    RecordsComponent
   ],
   imports: [
     BrowserModule,
